@@ -1,12 +1,10 @@
  # Intentional test secrets for secret scanning demo
- # These are dummy/test credentials - NOT real
  
- # AWS Access Key format (test)
- AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
- AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+ # GitHub PAT (classic) - fake but realistic format
+ GITHUB_TOKEN = "ghp_R4nd0mStr1ngThatL00ksR3alButIsN0t99"
  
- # GitHub Personal Access Token format (test)
- GITHUB_TOKEN = "ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef12"
+ # Azure SQL Connection String
+ DB_CONNECTION = "Server=tcp:myserver.database.windows.net;Database=mydb;User ID=admin;Password=P@ssw0rd123!;Encrypt=true;"
  
- # Azure Storage Key format (test)
- AZURE_STORAGE_KEY = "DefaultEndpointsProtocol=https;AccountName=testaccount;AccountKey=dGVzdGtleQ==;EndpointSuffix=core.windows.net"
+ # Slack webhook
+ SLACK_WEBHOOK = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
